@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+body {
+    background-image: linear-gradient(to bottom, #333333, #000000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+  
+@media (min-width: 0) {
+    .App-logo {
+        display: none;
+        height: 100px;
+        pointer-events: none;
+        width: 25%;
+      }
+      
+      @media (prefers-reduced-motion: no-preference) {
+        .App-logo {
+          animation: App-logo-spin infinite 20s linear;
+        }
+      }
+      
+      
+      @keyframes App-logo-spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    
+      .header{
+        background:
+          linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+          linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+          linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+          linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+          linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+          linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+        background-color: #131313;
+        background-size: 20px 20px;
+        height: 18vh;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        animation: gradient 50s linear infinite;
+        max-width: 100vw;
+      }
+
+      @keyframes gradient {
+        0% {
+          background-position: 0 50%;
+        }
+        100% {
+          background-position: calc(100% + 20px) 50%;
+        }
+      }
+
+      .name {
+        height: 50%;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #2F88FF;
+        padding: 2%;
+        font-family: 'Ubuntu';   
+        font-style: italic;  
+        
+      }
+      .name h1{
+        font-size: 30px; 
+        margin: auto;
+      }
+      .name h2{
+        font-size: 30px; 
+        margin: auto;
+        font-style: normal;
+      }
+    .menu {
+        height: 50%;
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+    .menu a{
+        text-decoration: none;
+        display: flex;
+        width: 50%;
+        height: 50%;
+        justify-content: center;
+        padding: 1.5%;
+        color: white;
+        cursor: pointer;
+        border: .5px solid #2F88FF;
+        border-radius: 20px;
+        background-color: rgba(17, 71, 133, 0.082);
+        font-weight:bolder;
+        gap: 5%;
+    }
+    .nav{
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      padding: 4%;
+    }
+    .nav-link{
+      background-color: whitesmoke;
+      border-radius: 100%;
+      padding: 10px;
+      text-align: center;
+      color: #2F88FF;
+    }
+    .nav-link:hover{
+      color: white;
+      background-color: #2F88FF;
+      transition: 0.4s;
+      scale: 1.1;
+    }
+    .home p{
+      color: whitesmoke;
+      font-family: 'Ubuntu';
+    }
+}

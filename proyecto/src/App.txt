@@ -1,0 +1,166 @@
+/* body {
+  background-image: url(https://i.ibb.co/VSNdX0m/image.jpg);
+} */
+
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,400;1,500;1,600&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* html{
+  overflow-x: hidden;
+} */
+
+.App-logo {
+  height: 100px;
+  pointer-events: none;
+  width: 25%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header{
+  background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+  height: 15vh;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  animation: gradient 50s linear infinite;
+  max-width: 100vw;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+  100% {
+    background-position: calc(100% + 20px) 50%;
+  }
+}
+
+.name {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #2F88FF;
+  padding-top: 20px;
+  
+}
+
+.name h1{
+  margin: auto;
+  font-size: 32px;
+}
+.name h2{
+  margin: auto;
+}
+
+nav.menu {
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+nav.menu a{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #2F88FF;
+    border: 5px solid #2F88FF;
+    border-radius: 20px;
+    background-color: black;
+    font-family: 'Fugaz One';   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+nav.menu a:hover{
+    color: white;
+    background-color: #2F88FF;
+    transition: 0.5s;
+    scale: 1.1;
+}
+
+nav.pro {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+nav.pro a{
+  width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #2F88FF;
+    border: 5px solid #2F88FF;
+    border-radius: 20px;
+    background-color: black;
+    font-family: 'Fugaz One';   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+ .home {
+  background-color: red;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.home .figure{
+  display: flex;
+  height: 100%;
+  
+}
+
+.home p{
+  display: flex;
+}
+
+.home .nav{
+  width: 50%;
+
+} 
+
