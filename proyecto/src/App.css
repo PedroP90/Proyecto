@@ -127,5 +127,23 @@ body {
     .home p{
       color: whitesmoke;
       font-family: 'Ubuntu';
+      text-align: justify;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .card {
+      color: white;
+    }
+    .card-img{
+
+    }
+    .card-body{
+      color: white;
+    }
+    .card-title{
+      
+    }
+    .card-text{
+    
     }
 }

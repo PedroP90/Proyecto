@@ -2,6 +2,7 @@ import React from 'react'
 import { Figure, Nav } from 'react-bootstrap'
 import Foto from '../../img/Perfil.png'
 import { FaLinkedin, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { Homecards } from './components/Homecards';
 
 export const HomePage = () => {
   return (
@@ -23,7 +24,7 @@ export const HomePage = () => {
             </Nav>
             <p>Soluciones Anteo proporciona las <b>mejores y más actualizadas herramientras de diseño</b> para ponerlas al servicio de los deseos del cliente. Ofrecemos el mejor asesoramiento para la creación de páginas que <b>encarnen los valores y las necesidades de su empresa</b>.</p>
         </div>
-        
+        <Homecards/>
     </>
     
   )
