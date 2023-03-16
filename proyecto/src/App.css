@@ -111,6 +111,7 @@ body {
       padding: 4%;
     }
     .nav-link{
+      font-size: 20px;
       background-color: whitesmoke;
       border-radius: 100%;
       padding: 10px;
