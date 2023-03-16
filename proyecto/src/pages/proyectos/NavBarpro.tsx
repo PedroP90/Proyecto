@@ -7,5 +7,7 @@ export const NavBarPro = () => {
         <Link to='personales'>Proyectos Personales</Link>
         <Link to='educativos'>Proyectos Educativos</Link>
      </nav>
+
   )
 }
+

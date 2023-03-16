@@ -2,7 +2,7 @@ import React from 'react'
 import { Outlet, Route, Routes } from 'react-router-dom';
 import logo from '../../logo.svg';
 import { NavBar } from './NavBar';
-import { FormacionPage } from '../formacion/Formacion';
+import { ServiciosPage } from '../servicios/Servicios';
 import { ProyectosPage } from '../proyectos/Proyectos';
 
 export const Header = () => {

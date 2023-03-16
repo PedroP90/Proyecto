@@ -33,7 +33,7 @@ export const NavBar = () => {
         <span><HomeSharpIcon/></span>
         <span>INICIO</span>
       </Link>
-      <Link to='formacion'>
+      <Link to='servicios'>
         <span><SettingsSuggestSharpIcon/></span>
         <span>SERVICIOS</span>
       </Link>

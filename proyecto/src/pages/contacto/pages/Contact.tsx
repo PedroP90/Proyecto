@@ -1,7 +1,7 @@
 import { TextField } from '@mui/material'
 import React from 'react'
 
-export const ContactPages = () => {
+export const ContactPage = () => {
   return (
     <>  
         <form>
