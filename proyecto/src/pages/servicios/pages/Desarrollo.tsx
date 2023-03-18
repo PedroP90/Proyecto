@@ -1,7 +1,30 @@
 import React from 'react'
+import { Card } from 'react-bootstrap'
+import { Desarrollos } from '../../../data/seeds'
+
+
+
 
 export const DesarrolloPage = () => {
-  return (
-    <div>Page</div>
-  )
-}
+    return (
+      <>
+        <section className='diseño'>
+          <h2>Desarrollo Web</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nesciunt deleniti ad commodi quo? Ea reiciendis debitis dolores! Deserunt deleniti porro cumque eos, doloribus qui rerum repellat earum dignissimos iusto!</p>
+          <div>
+            {
+              Desarrollos.map( (desarrollo) => (
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={desarrollo.imagen} className='img' />
+                    <Card.Body>
+                      <Card.Title>{desarrollo.name}</Card.Title>
+                      <Card.Text>{desarrollo.texto}</Card.Text>
+                    </Card.Body>
+                </Card>
+              ))
+            }
+          </div>
+        </section>
+      </>
+    )
+  }

@@ -1,31 +1,28 @@
 import React from 'react'
-import { Image, Table } from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
 import { Diseños } from '../../../data/seeds'
 
 
 export const DiseñosPage = () => {
     return (
       <>
-          <h2>DISEÑO GRÁFICO</h2>
+        <section className='diseño'>
+          <h2>Diseño Gráfico</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, similique vel! Magni eveniet molestiae laborum ipsa obcaecati accusamus nostrum optio temporibus, ipsam aut maiores officiis error! Numquam veritatis voluptatem assumenda!</p>
-          <Table striped bordered hover>
-            <thead>
-                <th></th>
-                <th>Servicio</th>
-                <th>Labor</th>
-            </thead>
-            <tbody>
-                {
-                  Diseños.map( (diseño) => (
-                    <tr>
-                      <td width='10%'><Image width='80%' src={diseño.imagen} /> </td>
-                      <td>{ diseño.name }</td>
-                      <td>{ diseño.texto }</td>
-                    </tr>
-                  ))
-                }
-            </tbody>
-          </Table>
+          <div>
+            {
+              Diseños.map( (diseño) => (
+                <Card style={{ width: '18rem' }}>
+                    <Card.Img variant="top" src={diseño.imagen} className='img' />
+                    <Card.Body>
+                      <Card.Title>{diseño.name}</Card.Title>
+                      <Card.Text>{diseño.texto}</Card.Text>
+                    </Card.Body>
+                </Card>
+              ))
+            }
+          </div>
+        </section>
       </>
     )
   }

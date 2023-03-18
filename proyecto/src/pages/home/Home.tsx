@@ -7,7 +7,7 @@ import { Homecards } from './components/Homecards';
 export const HomePage = () => {
   return (
     <>
-        <section>
+        <section className='home'>
             <Nav as="div">
                 <Nav.Item as="div">
                     <Nav.Link href="linkedin"><FaLinkedin/></Nav.Link>

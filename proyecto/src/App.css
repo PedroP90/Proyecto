@@ -44,7 +44,7 @@ body {
           linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
         background-color: #131313;
         background-size: 20px 20px;
-        height: 18vh;
+        /* height: 18vh; */
         display: flex;
         flex-flow: row wrap;
         align-items: center;
@@ -84,17 +84,22 @@ body {
         font-style: normal;
       }
     .menu {
-        height: 50%;
+        /* height: 50%; */
         display: flex;
         flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
         width: 100%;
+        gap: 5px;
+        padding-bottom: 5px;
     }
     .menu a{
-        text-align: center;
         text-decoration: none;
         display: flex;
-        width: 50%;
-        height: 50%;
+        text-align: center;
+        align-items: center;
+        width: 47%;
+        height: 50px;
         justify-content: center;
         padding: 1.5%;
         color: white;
@@ -103,7 +108,7 @@ body {
         border-radius: 20px;
         background-color: rgba(17, 71, 133, 0.082);
         font-weight:bolder;
-        gap: 5%;
+        
     }
     .menu a:hover{
       color: white;
@@ -131,7 +136,7 @@ body {
       transition: 0.4s;
       scale: 1.1;
     }
-    section p{
+    .home p{
       color: white;
       font-family: 'Ubuntu';
       text-align: justify;
@@ -165,6 +170,7 @@ body {
     .card-title{
       padding-bottom: 5px;
       font-weight: bold;
+     
     }
     .servicios {
       height: 40px;
@@ -189,5 +195,26 @@ body {
     }
     .servicios a:hover{
       background-color: #2F88FF;
+    }
+    .diseño  {
+      display: flex;
+      flex-flow: column nowrap;
+      
+      color: white;
+      font-family: 'Ubuntu';
+      text-align: justify;
+      padding: 15px 30px;
+    }
+    .diseño h2 {
+      color: #2F88FF;
+      margin: auto;
+      padding-bottom: 5px;
+    }
+    Table {
+      width: 80%;
+      margin: auto; 
+    }
+    .diseño .card-title{
+      color: #2F88FF;
     }
 }

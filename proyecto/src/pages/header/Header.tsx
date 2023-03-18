@@ -8,14 +8,14 @@ import { ProyectosPage } from '../proyectos/Proyectos';
 export const Header = () => {
   return (
     <>
-      <nav className='header'>
+      <section className='header'>
         <div className='name'>
           <h1>SOLUCIONES ANTEO</h1>
           <h2>Diseño web</h2>
         </div>
         <img src={logo} className="App-logo" alt="logo" />
         <NavBar/>
-      </nav>
+      </section>
     </>
   )
 }
