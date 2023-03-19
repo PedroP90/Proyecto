@@ -121,7 +121,7 @@ export const Posicionamientos = [
     {
         name: 'Linkbuilding',
         texto: 'Desde nuestra Agencia de SEO conseguiremos enlaces que transmitan autoridad a tu web.',
-        imagen: 'https://dh42.com/assets/images/blogcovers/link-building.png'
+        imagen: 'https://x7y8v4y2.stackpathcdn.com/wp-content/uploads/2019/05/84.png'
 
     },
     {

@@ -2,8 +2,6 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { ServiciosPage } from '../servicios/Servicios'
 import { ProyectosPage } from '../proyectos/Proyectos'
-import { EducativosPage } from '../proyectos/pages/educativos/Educativos'
-import PersonalesPage from '../proyectos/pages/personales/Personales'
 import { HomePage } from '../home/Home'
 import { ContactPage } from '../contacto/pages/Contact'
 import { RegistroPage } from '../contacto/pages/Registro'
@@ -11,6 +9,9 @@ import { DiseñosPage } from '../servicios/pages/Diseño'
 import { DesarrolloPage } from '../servicios/pages/Desarrollo'
 import { PublicidadPage } from '../servicios/pages/Publicidad'
 import { SeoPage } from '../servicios/pages/Seo'
+import { PersonalesPage } from '../proyectos/pages/Personales'
+import { EducativosPage } from '../proyectos/pages/Educativos'
+
 
 export const Main = () => {
   return (

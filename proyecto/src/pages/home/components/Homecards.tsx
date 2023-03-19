@@ -6,7 +6,7 @@ import { Paginas } from '../../../data/seeds'
 export const Homecards = () => {
   return (
     <>
-        <div className='card'>
+        <div>
         {
               Paginas.map( (pagina) => (
                 <Card style={{ width: '18rem' }}>

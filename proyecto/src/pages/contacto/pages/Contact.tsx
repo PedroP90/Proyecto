@@ -4,29 +4,31 @@ import React from 'react'
 export const ContactPage = () => {
   return (
     <>  
+      <section className='contact'>
+        <h2>Zona de Registro</h2>
         <form>
-      <TextField 
-              label="Nombre" variant='standard' 
+          <TextField className='contacto' 
+              label="Nombre" variant='outlined' 
               placeholder='Nombre Completo'
               InputLabelProps={{
                 shrink: true,
               }}
-      />
-      <TextField 
-              label="Motivo" variant='outlined' 
-              placeholder='Motivo de contacto'
+              />
+          <TextField className='contacto'
+              label="Apellidos" variant='outlined'
+              placeholder='Apellidos Completos'
               InputLabelProps={{
                 shrink: true,
               }}
-      />
-      <TextField 
-              label="Cuerpo" variant='filled' 
-              placeholder='Cuerpo del motivo'
-              InputLabelProps={{
-                shrink: true,
-              }}
-      />  
-      </form>
+              />
+        </form>
+        <figure>
+          <img src='https://www.kanlli.com/wp-content/uploads/2017/03/REGISTRO-ONLINE.png'></img>
+        </figure>
+      </section>    
+      
     </>
   )
 }
+
+
