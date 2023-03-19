@@ -36,7 +36,7 @@ export const Diseños = [
     },
     {
         name: 'Diseño Corporativo',
-        texto: 'Confeccionaremos la mejor web para tu negocio.',
+        texto: 'Confeccionaremos la mejor web que haga que tu negocio prospere.',
         imagen: 'https://cdn-icons-png.flaticon.com/128/5368/5368595.png'
 
     },

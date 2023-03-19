@@ -5,9 +5,10 @@ import { Paginas } from '../../../data/seeds'
 
 export const Homecards = () => {
   return (
-    <>
-        <div className='tarjeta'>
-        {
+    <>  
+     
+          <div className='tarjeta'>
+            {
               Paginas.map( (pagina) => (
                 <Card>
                     <Card.Img variant="top" src={pagina.imagen} className='img' />
@@ -17,8 +18,10 @@ export const Homecards = () => {
                     </Card.Body>
                 </Card>
               ))
-          }
-        </div>
+            }
+         </div>
+  
+        
     </>
   )
 }

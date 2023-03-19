@@ -1,4 +1,4 @@
-@media (min-width: 0) {
+@media (min-width: 0px) {
     .servicios {
         height: 40px;
         display: flex;
@@ -33,13 +33,76 @@
         padding: 15px 30px;
       }
       .diseño h2 {
+        font-size: xx-large;
         color: #2F88FF;
         margin: auto;
-        padding-bottom: 10px;
+        margin-bottom: 30px;
         padding-top: 10px;
       }
     
       .diseño .card-title{
         color: #2F88FF;
       }
+      .diseño figure{
+        display: none;
+      }
+}
+
+@media (min-width: 900px) {
+  .diseño span{
+    font-size:xx-large;
+    opacity: 0;
+    transform: translateX(-50px);
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    margin-bottom: 40px;
+  }
+  @keyframes aparecer {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .diseño{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  /* .diseño article {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 50vh;
+    padding: 20px;
+  } */
+  .diseño figure{
+    display: flex !important;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+  }
+  .diseño figure img{
+    max-width: 50vw;
+    height: auto;
+    justify-content: center;
+    object-fit: contain;
+  }
+  .tarjetas {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+  }
+  .tarjetas .card{
+    width: 45%;
+    height: 100%;
+    max-width: 300px;
+  }
 }

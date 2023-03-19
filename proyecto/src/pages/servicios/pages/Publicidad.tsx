@@ -9,8 +9,11 @@ export const PublicidadPage = () => {
       <>
         <section className='diseño'>
           <h2>Publicidad Online</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas officia provident odit amet ad dolorum quasi corporis voluptatum aperiam exercitationem, eaque dolores ducimus ratione nostrum beatae assumenda cupiditate adipisci quam.</p>
-          <div>
+          <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas officia provident odit amet ad dolorum quasi corporis voluptatum aperiam exercitationem, eaque dolores ducimus ratione nostrum beatae assumenda cupiditate adipisci quam.</span>
+          <figure>
+            <img src='https://www.juancmejia.com/wp-content/uploads/2019/01/Consultor%C3%ADa-Publicidad-Onlines-motores-de-b%C3%BAsqueda-y-redes-sociales-1170x780.jpg'></img>
+          </figure>
+          <div className='tarjetas'>
             {
               Publicidades.map( (publicidad) => (
                 <Card style={{ width: '18rem' }}>

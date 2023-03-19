@@ -38,18 +38,15 @@
     }
     .contacto .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
         border-color: #2F88FF;
-    }
-    .bordes {
-        border: 1px solid white
-    }  
+    } 
     .parrafo {
         color: white;
+        text-align: center;
     }
     .info {
         padding: 20px;
         display: flex;
         flex-flow: column nowrap;
-        justify-content: center;
         align-items: center;
         height: 50vh;
         text-align: justify;

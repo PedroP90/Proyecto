@@ -10,8 +10,11 @@ export const DesarrolloPage = () => {
       <>
         <section className='diseño'>
           <h2>Desarrollo Web</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nesciunt deleniti ad commodi quo? Ea reiciendis debitis dolores! Deserunt deleniti porro cumque eos, doloribus qui rerum repellat earum dignissimos iusto!</p>
-          <div>
+          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nesciunt deleniti ad commodi quo? Ea reiciendis debitis dolores! Deserunt deleniti porro cumque eos, doloribus qui rerum repellat earum dignissimos iusto!</span>
+          <figure>
+            <img src='https://www.itconsultors.com/images/blog/web-dev.jpg'></img>
+          </figure>
+          <div className='tarjetas'>
             {
               Desarrollos.map( (desarrollo) => (
                 <Card style={{ width: '18rem' }}>

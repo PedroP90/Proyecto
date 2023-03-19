@@ -4,6 +4,9 @@ import { Swiper, SwiperSlide} from "swiper/react"
 import "swiper/css";
 import "swiper/css/navigation";
 import Foto1 from '../../../img/proyecto.png'
+import Foto2 from '../../../img/react.png'
+
+
 
 export const PersonalesPage = () => {
   return (
@@ -14,7 +17,11 @@ export const PersonalesPage = () => {
                 <img src={Foto1}></img>
                 <p>El primer proyecto personal dedicado a raspar un poco la nota final del primer trimestre, es simplemente html y css con el diseño hecho de antemano en figma. Los botones tenía unos mínimos efectos, la imagen la saqué directamente de figma ya que la edité ahí, como detalle llegué a incluir enlaces a mis redes sociales.</p>
             </SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
+            <SwiperSlide>
+              <h2>Segundo Proyecto</h2>
+              <img src={Foto2}></img>
+              <p>El proyecto del segundo trimestre con implementación de React, RouterDom y diversas librerías como Material UI, Boostrap y Swiper. Tiene diseño responsivo principalmente a través del CSS, salvo la parte del formulario donde se han usado componentes Grid para realizar la maquetación.</p>
+            </SwiperSlide>
         </Swiper>
     </>
     

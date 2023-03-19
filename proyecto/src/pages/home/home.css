@@ -128,8 +128,8 @@
     padding: 20px;
   }
   .card {
-    width: 40%;
-    height: 50%;
+    width: 45%;
+    height: auto
   }
   .inicio figure {
     width: 50%;
