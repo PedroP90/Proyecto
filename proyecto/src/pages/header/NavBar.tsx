@@ -5,6 +5,7 @@ import HomeSharpIcon from '@mui/icons-material/HomeSharp'
 import SettingsSuggestSharpIcon from '@mui/icons-material/SettingsSuggestSharp';
 import AccountBalanceSharpIcon from '@mui/icons-material/AccountBalanceSharp';
 import ConnectWithoutContactSharpIcon from '@mui/icons-material/ConnectWithoutContactSharp';
+import './header.css'
 
 export const NavBar = () => {
   return (

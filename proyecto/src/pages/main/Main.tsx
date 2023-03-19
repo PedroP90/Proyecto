@@ -3,14 +3,15 @@ import { Route, Routes } from 'react-router-dom'
 import { ServiciosPage } from '../servicios/Servicios'
 import { ProyectosPage } from '../proyectos/Proyectos'
 import { HomePage } from '../home/Home'
-import { ContactPage } from '../contacto/pages/Contact'
-import { RegistroPage } from '../contacto/pages/Registro'
+
+import { InformacionPage } from '../contacto/componentes/Informacion'
 import { DiseñosPage } from '../servicios/pages/Diseño'
 import { DesarrolloPage } from '../servicios/pages/Desarrollo'
 import { PublicidadPage } from '../servicios/pages/Publicidad'
 import { SeoPage } from '../servicios/pages/Seo'
 import { PersonalesPage } from '../proyectos/pages/Personales'
 import { EducativosPage } from '../proyectos/pages/Educativos'
+import { ContactoPage } from '../contacto/Contacto'
 
 
 export const Main = () => {
@@ -28,9 +29,8 @@ export const Main = () => {
             <Route path='personales' element={ <PersonalesPage/> } />
             <Route path='educativos' element={ <EducativosPage/> } />
           </Route>
-          <Route path='contacto' element={ <ContactPage/> }>
-            <Route path='registro' element={ <RegistroPage/>}/>
-            <Route path='contact' element={ <ContactPage/>}/>
+          <Route path='contacto' element={ <ContactoPage/> }>
+            <Route path='contact' element={ <ContactoPage/>}/>
           </Route>
         </Routes>
     </div>

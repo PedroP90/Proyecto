@@ -1,0 +1,57 @@
+@media (min-width: 0px) {
+    form{
+      display: flex;
+      flex-flow: column nowrap;
+      padding: 40px;
+      gap: 20px;
+      width: 60%;
+      margin: auto;
+    }
+    .contacto .MuiInputBase-input {
+      color: white;
+      font-weight: bolder;
+    }
+    .contacto .MuiInputLabel-root{
+      color: white;
+      
+    }
+    .contact h2 {
+      color: white;
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(248, 248, 255, .5);
+    }
+    .contact figure {
+      width: 90%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      margin: auto;
+    }
+    .contact figure img{
+      width: 100%;
+      padding: 20px;
+      object-fit: cover;
+    }
+    .contacto .MuiOutlinedInput-notchedOutline {
+        border-color: white;
+    }
+    .contacto .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+        border-color: #2F88FF;
+    }
+    .bordes {
+        border: 1px solid white
+    }  
+    .parrafo {
+        color: white;
+    }
+    .info {
+        padding: 20px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        text-align: justify;
+    }
+}

@@ -1,34 +1,34 @@
-import { TextField } from '@mui/material'
+import { Button, Grid } from '@mui/material'
 import React from 'react'
+import InputLabel from '@mui/material/InputLabel';
+import { Formulario } from '../componentes/Formulario'
 
 export const ContactPage = () => {
   return (
-    <>  
-      <section className='contact'>
-        <h2>Zona de Registro</h2>
-        <form>
-          <TextField className='contacto' 
-              label="Nombre" variant='outlined' 
-              placeholder='Nombre Completo'
-              InputLabelProps={{
-                shrink: true,
-              }}
-              />
-          <TextField className='contacto'
-              label="Apellidos" variant='outlined'
-              placeholder='Apellidos Completos'
-              InputLabelProps={{
-                shrink: true,
-              }}
-              />
-        </form>
-        <figure>
-          <img src='https://www.kanlli.com/wp-content/uploads/2017/03/REGISTRO-ONLINE.png'></img>
-        </figure>
-      </section>    
-      
-    </>
+    <form>
+        <Grid container spacing={2}>
+            <Grid item xs={12} sm={6} md={6}>
+                <Formulario inputLabel='Email' />
+            </Grid>
+            <Grid item xs={12} sm={6} md={6}>
+                <Formulario inputLabel='Nombre' />
+            </Grid>
+            <Grid item xs={12} sm={6} md={6}>
+                <Formulario inputLabel='Apellidos' />
+            </Grid>
+            <Grid item xs={12} sm={6} md={6}>
+                <Formulario inputLabel='Dirección' />
+            </Grid>
+            <Grid item xs={12} sm={6} md={6}>
+                <Formulario inputLabel='Teléfono' />
+            </Grid>
+            <Grid item xs={12} sm={6} md={6}>
+                <Formulario inputLabel='Mensaje de contacto' />
+            </Grid>
+            <Grid item xs={12} sm={12} md={12}>
+                <Button variant='contained' fullWidth>Enviar</Button>
+            </Grid>
+        </Grid>
+    </form>
   )
 }
-
-

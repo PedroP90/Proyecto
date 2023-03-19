@@ -7,7 +7,7 @@ import Seo from '../img/seo.png'
 export const Paginas = [
     {
         name: 'Diseño Gráfico',
-        texto: 'Diseños únicos que harán de su web su seña de identidad.',
+        texto: 'Diseños únicos que harán de su web su seña de identidad, nos encargaremos de realizar su visión de empresa',
         imagen: Dise
     },
     {

@@ -1,0 +1,45 @@
+@media (min-width: 0) {
+    .servicios {
+        height: 40px;
+        display: flex;
+        flex-flow: row nowrap;
+        text-align: center;
+        justify-content: space-between;
+        width: 100%;
+        background-color: rgba(248, 248, 255, .5);
+      }
+      .servicios a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        text-decoration: none;
+        color: white;
+        height: 100%;
+        padding-left: 5px;
+        font-family: 'Ubuntu';
+        font-weight: bold;
+      }
+      .servicios a:hover{
+        background-color: #2F88FF;
+        cursor: pointer;
+      }
+      .diseño  {
+        display: flex;
+        flex-flow: column nowrap;
+        color: white;
+        font-family: 'Ubuntu';
+        text-align: justify;
+        padding: 15px 30px;
+      }
+      .diseño h2 {
+        color: #2F88FF;
+        margin: auto;
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+    
+      .diseño .card-title{
+        color: #2F88FF;
+      }
+}

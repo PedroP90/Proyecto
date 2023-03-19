@@ -6,6 +6,8 @@ import Caronte from '../../../img/Caronte.png'
 import Examen from '../../../img/examen.png'
 import Caravana from '../../../img/caravana.jpeg'
 
+
+
 export const EducativosPage = () => {
   return (
     <>

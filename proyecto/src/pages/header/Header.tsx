@@ -4,6 +4,7 @@ import logo from '../../logo.svg';
 import { NavBar } from './NavBar';
 import { ServiciosPage } from '../servicios/Servicios';
 import { ProyectosPage } from '../proyectos/Proyectos';
+import './header.css'
 
 export const Header = () => {
   return (

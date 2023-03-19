@@ -6,10 +6,10 @@ import { Paginas } from '../../../data/seeds'
 export const Homecards = () => {
   return (
     <>
-        <div>
+        <div className='tarjeta'>
         {
               Paginas.map( (pagina) => (
-                <Card style={{ width: '18rem' }}>
+                <Card>
                     <Card.Img variant="top" src={pagina.imagen} className='img' />
                     <Card.Body>
                       <Card.Title>{pagina.name}</Card.Title>
