@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 import { Diseños, Posicionamientos } from '../../../data/seeds'
+import Seop from '../../../img/seop.jpg'
 
 
 export const SeoPage = () => {
@@ -10,7 +11,7 @@ export const SeoPage = () => {
           <h2>Seo: Posicionamiento</h2>
           <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, exercitationem dignissimos! Nobis, possimus nulla omnis optio libero totam officiis iure placeat sed odit eaque, veritatis doloremque aliquam voluptatum velit vitae?</span>
           <figure>
-            <img src='https://www.marionacabassa.es/wp-content/uploads/2022/10/seo-2.jpg'></img>
+            <img src={Seop}></img>
           </figure>
           <div className='tarjetas'>
             {

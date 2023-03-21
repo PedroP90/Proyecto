@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 import { Desarrollos } from '../../../data/seeds'
+import Rollo from '../../../img/rollo.jpg'
 
 
 
@@ -12,7 +13,7 @@ export const DesarrolloPage = () => {
           <h2>Desarrollo Web</h2>
           <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nesciunt deleniti ad commodi quo? Ea reiciendis debitis dolores! Deserunt deleniti porro cumque eos, doloribus qui rerum repellat earum dignissimos iusto!</span>
           <figure>
-            <img src='https://www.itconsultors.com/images/blog/web-dev.jpg'></img>
+            <img src={Rollo}></img>
           </figure>
           <div className='tarjetas'>
             {

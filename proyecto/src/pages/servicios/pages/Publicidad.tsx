@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 import { Publicidades } from '../../../data/seeds'
+import Public from '../../../img/public.jpg'
 
 
 
@@ -11,7 +12,7 @@ export const PublicidadPage = () => {
           <h2>Publicidad Online</h2>
           <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas officia provident odit amet ad dolorum quasi corporis voluptatum aperiam exercitationem, eaque dolores ducimus ratione nostrum beatae assumenda cupiditate adipisci quam.</span>
           <figure>
-            <img src='https://www.juancmejia.com/wp-content/uploads/2019/01/Consultor%C3%ADa-Publicidad-Onlines-motores-de-b%C3%BAsqueda-y-redes-sociales-1170x780.jpg'></img>
+            <img src={Public}></img>
           </figure>
           <div className='tarjetas'>
             {

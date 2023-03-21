@@ -1,9 +1,9 @@
 import React from 'react'
 import { Figure, Nav } from 'react-bootstrap'
-import Foto from '../../img/Perfil.png'
 import { FaLinkedin, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { Homecards } from './components/Homecards';
 import './home.css'
+import Home from '../../img/home.png'
 
 export const HomePage = () => {
   return (
@@ -28,7 +28,7 @@ export const HomePage = () => {
         </section>
         <article className='inicio'>
             <figure>
-                <img src='https://m5s7j2f7.rocketcdn.me/wp-content/uploads/fly-images/12091/disen%CC%83o-web-y-marketing-2540x0.jpg'></img>
+                <img src={Home}></img>
             </figure>  
             <Homecards/>
         </article>
