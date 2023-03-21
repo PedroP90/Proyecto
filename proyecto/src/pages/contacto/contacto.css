@@ -36,6 +36,7 @@
     .contacto .MuiOutlinedInput-notchedOutline {
         border-color: white;
     }
+    
     .contacto .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
         border-color: #2F88FF;
     } 

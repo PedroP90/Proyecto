@@ -74,12 +74,6 @@
     display: flex;
     flex-flow: row wrap;
   }
-  /* .diseño article {
-    display: flex;
-    flex-flow: row nowrap;
-    height: 50vh;
-    padding: 20px;
-  } */
   .diseño figure{
     display: flex !important;
     justify-content: center;

@@ -45,15 +45,6 @@ export const Formulario = ({inputLabel='Sin label', inputType='text'}) => {
             }
         }}
         />
-    {/* <CssTextField 
-    label="Custom CSS"
-    id="custom-css-outlined-input"
-    InputLabelProps={{
-        style:{
-            color:'white'
-        }
-    }}
-    /> */}
     </>
   )
 }

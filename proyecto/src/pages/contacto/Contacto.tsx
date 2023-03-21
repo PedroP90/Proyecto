@@ -19,9 +19,6 @@ export const ContactoPage = () => {
               <ContactPage/>
             </Grid>
           </Grid>
-          {/* <figure>
-            <img src='https://www.kanlli.com/wp-content/uploads/2017/03/REGISTRO-ONLINE.png'></img>
-          </figure> */}
         </section>  
     </>
   )
