@@ -1,7 +1,5 @@
-import { Grid, TextField, Typography } from '@mui/material'
+import { Grid } from '@mui/material'
 import React from 'react'
-import { Outlet } from 'react-router-dom'
-import InputLabel from '@mui/material/InputLabel';
 import './contacto.css'
 import { ContactPage } from './pages/Contact'
 import { InformacionPage } from './componentes/Informacion'

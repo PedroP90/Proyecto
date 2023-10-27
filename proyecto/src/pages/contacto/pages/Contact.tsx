@@ -1,6 +1,5 @@
 import { Button, Grid } from '@mui/material'
 import React from 'react'
-import InputLabel from '@mui/material/InputLabel';
 import { Formulario } from '../componentes/Formulario'
 
 export const ContactPage = () => {

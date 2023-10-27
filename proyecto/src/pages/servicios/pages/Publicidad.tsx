@@ -12,7 +12,7 @@ export const PublicidadPage = () => {
           <h2>Publicidad Online</h2>
           <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas officia provident odit amet ad dolorum quasi corporis voluptatum aperiam exercitationem, eaque dolores ducimus ratione nostrum beatae assumenda cupiditate adipisci quam.</span>
           <figure>
-            <img src={Public}></img>
+            <img src={Public} alt='public'></img>
           </figure>
           <div className='tarjetas'>
             {

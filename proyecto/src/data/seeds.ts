@@ -1,4 +1,3 @@
-import React from 'react'
 import Desa from '../img/desa.png'
 import Publi from '../img/publi.png'
 import Dise from '../img/dise.png'

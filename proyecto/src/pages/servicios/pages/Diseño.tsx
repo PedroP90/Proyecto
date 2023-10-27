@@ -1,4 +1,3 @@
-import { Container } from '@mui/material'
 import React from 'react'
 import { Card } from 'react-bootstrap'
 import { Diseños } from '../../../data/seeds'
@@ -14,7 +13,7 @@ export const DiseñosPage = () => {
           <h2>Diseño Gráfico</h2>
           <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, similique vel! Magni eveniet molestiae laborum ipsa obcaecati accusamus nostrum optio temporibus, ipsam aut maiores officiis error! Numquam veritatis voluptatem assumenda!</span>
             <figure>
-              <img src={Grafic}></img>
+              <img src={Grafic} alt='grafica1'></img>
             </figure>
             <div className='tarjetas'>
               {

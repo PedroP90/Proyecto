@@ -1,6 +1,4 @@
-import { ButtonGroup, ToggleButton, ToggleButtonGroup } from '@mui/material';
 import React from 'react'
-import { Button, ListGroup } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 
 export const NavBar = () => {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Figure, Nav } from 'react-bootstrap'
+import { Nav } from 'react-bootstrap'
 import { FaLinkedin, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { Homecards } from './components/Homecards';
 import './home.css'
@@ -28,7 +28,7 @@ export const HomePage = () => {
         </section>
         <article className='inicio'>
             <figure>
-                <img src={Home}></img>
+                <img src={Home} alt='home'></img>
             </figure>  
             <Homecards/>
         </article>
